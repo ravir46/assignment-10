@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*yaha se*/
+header{
+    
+	padding: 20px 20px;
+    background-color: whitesmoke;
+	position: fixed;
+	width: 100%;
+    }
+.nav{
+	float: right;
+	padding-right: 180px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: bold;
+}
+.nav>a{
+    color:black;
+    
+    text-decoration: none;
+}
+
+.wrapper{
+	width: 100%;
+	display: flex;
+    padding: 30px;
+	background-color: rgba(0, 0, 0, 0.144);
+	justify-content: center;
+}
+
+h2{
+	padding-top: 10px;
+	margin-left: 100px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+h3{
+	text-align: center;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: bold;
+	font-size: xx-large;
+}
+h1 {
+font-family:'Plus Jakarta Sans', sans-serif ;
+font-weight: bold;
+}
+.item1{
+	width: 25%;
+	margin-right: 30px;
+	margin-top: 70px;
+
+}
+.item1>h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+
+}
+
+.gallery1{
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+	
+}
+.gallery1 img{
+	margin: 10px;
+}
+.photo img{
+	margin-top: 190px;
+	margin-left: 60px;
+}
+
+	a{
+		margin-left: 30px;
+		}
+		footer{
+			background-color: whitesmoke;
+			padding: 20px;
+		}
+		.social{
+			height: 100;
+			display: flex;
+		 justify-content: right;
+		 margin-right: 50px;
+
+		}
+		.fa-facebook{
+        color: rgb(44, 44, 209);
+		}
+		.fa-instagram-square{
+         color: rgb(224, 26, 142);
+		}
+		.fa-twitter{
+			color: rgb(44, 26, 206);
+
+		}
+		.fa-linkedin{
+			color: rgb(45, 45, 212);
+			
+		}
+		.fa-github{
+			color: rgb(48, 34, 44);
+
+		}
